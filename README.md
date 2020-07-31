@@ -15,14 +15,18 @@ name: Markdown to pages
 description: Create a github page using markdown syntax
 url: "https://hugoliconv.github.io/markdown-to-pages/"
 markdown: kramdown
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - ABOUT.md
 ```
 
 ## Dummy content
-
-[About]({% link /ABOUT.md %})
-
-[Link](./ABOUT.md)
-[Link]({{ /ABOUT.md }})
+[About](./ABOUT.md)
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat placerat metus sed euismod. Ut et sapien semper, accumsan massa eget, mollis sem. Phasellus vitae pulvinar tellus. Etiam varius semper velit, non posuere nulla auctor nec. Nullam blandit, leo sed efficitur consectetur, turpis est posuere dui, auctor cursus tellus tortor in orci. Praesent eget odio erat. Nullam faucibus fringilla diam nec pretium.
