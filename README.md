@@ -1,4 +1,7 @@
 # Markdown to pages
+{:.no_toc}
+
+{:toc}
 
 ## Description
 
