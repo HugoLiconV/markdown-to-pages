@@ -19,8 +19,7 @@ markdown: kramdown
 
 ## Dummy content
 
-{{ site.baseurl }}{% link ABOUT.md %}
-[About]({% post_url ABOUT %})
+[About]({% post_url ABOUT.md %})
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat placerat metus sed euismod. Ut et sapien semper, accumsan massa eget, mollis sem. Phasellus vitae pulvinar tellus. Etiam varius semper velit, non posuere nulla auctor nec. Nullam blandit, leo sed efficitur consectetur, turpis est posuere dui, auctor cursus tellus tortor in orci. Praesent eget odio erat. Nullam faucibus fringilla diam nec pretium.
 
