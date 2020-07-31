@@ -4,5 +4,10 @@ description: Create a github page using markdown syntax
 url: "https://hugoliconv.github.io/markdown-to-pages/"
 markdown: kramdown
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
 include:
   - ABOUT.md
