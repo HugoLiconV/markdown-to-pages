@@ -1,0 +1,5 @@
+# Jekyll configuration
+name: Markdown to pages
+description: Create a github page using markdown syntax
+url: "https://hugoliconv.github.io/markdown-to-pages/"
+markdown: kramdown
