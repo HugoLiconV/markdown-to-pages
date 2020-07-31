@@ -21,6 +21,10 @@ markdown: kramdown
 
 [About]({% link /ABOUT.md %})
 
+[Link](./ABOUT.md)
+[Link]({{ /ABOUT.md }})
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras placerat placerat metus sed euismod. Ut et sapien semper, accumsan massa eget, mollis sem. Phasellus vitae pulvinar tellus. Etiam varius semper velit, non posuere nulla auctor nec. Nullam blandit, leo sed efficitur consectetur, turpis est posuere dui, auctor cursus tellus tortor in orci. Praesent eget odio erat. Nullam faucibus fringilla diam nec pretium.
 
 Integer in ultricies enim. Mauris et lorem faucibus, rutrum quam at, rutrum dui. Donec ac sem molestie, sollicitudin nisi eu, tincidunt dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse ultrices tempor turpis bibendum ultrices. Pellentesque ultricies bibendum suscipit. Nam efficitur sit amet nisl et lacinia. Quisque ut ex arcu. Fusce vestibulum vulputate felis, at pulvinar arcu viverra porttitor. Nam quis vehicula odio. Pellentesque rhoncus dictum sapien sit amet feugiat.
