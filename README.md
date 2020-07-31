@@ -1,7 +1,6 @@
 # Markdown to pages
-{:.no_toc}
+{% include toc.html %}
 
-{:toc}
 
 ## Description
 
